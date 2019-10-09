@@ -1,5 +1,30 @@
 .work{
-    background-color: rgb(99, 23, 23);
+    background-color: #6D8A9A;
     width: 100%;
-    height: 1000px;
+    height: auto;
+}
+.work div{
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+}
+.work .head{
+    font-family: 'Michroma', sans-serif;
+}
+.work .email{
+    font-family: 'AP Sans' sans-serif;
+    width: 70%;
+}
+
+.work .projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.work .projects div{
+    width: 160px;
+    height: 160px;
+    background-color: grey;
+    margin: 30px auto;
+    display: block;
 }
