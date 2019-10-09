@@ -4,7 +4,6 @@
 }
 .wrapper{
     background-image: url("images/background.jpg");
-    filter: brightness(50%);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -12,4 +11,5 @@
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
