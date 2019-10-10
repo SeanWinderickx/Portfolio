@@ -13,7 +13,26 @@
     <div class="wrapper">
         <!-- header -->
         <div class="header">
-            
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+              
+              <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
 
         </div>
         <!-- header -->
@@ -41,16 +60,17 @@
             <div class="email">Here are a few of my most recent design
             projects. Want to see more? <a href = "mailto: sean.winderickx@gmail.com">Email me.</a></div>
             <div class="projects">
-                <div class="animate"></div>
-                <div class="animate"></div>
-                <div class="animate"></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
         <!-- work -->
 
         <!-- footer -->
         <div class="footer">
-
+            <div><a href="https://www.linkedin.com/in/sean-winderickx-a22314101/"><img src="resources/images/linkedin.png"></a></div>
+            <div><a href="https://github.com/SeanWinderickx"><img src="resources/images/github_purple.png"></a></div>
         </div>
         <!-- footer -->
     </div>
