@@ -40,7 +40,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0d2d3f;
   width: 100%;
 }
 
@@ -168,7 +168,7 @@
 }
 
 .work .email {
-  font-family: "AP Sans" sans-serif;
+  font-family: "PT Sans" sans-serif;
   width: 70%;
 }
 
@@ -179,21 +179,24 @@
 }
 
 .work .projects div {
-  width: 160px;
-  height: 160px;
-  background-color: #636363;
-  margin: 30px auto;
   display: block;
-}
-
-.work .projects div {
-  transition: 1s;
 }
 
 .work .projects div:hover {
   background-color: #b8b8b8;
 }
 
+.work .projects img {
+  width: 20%;
+  height: auto;
+  margin: 10px auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .work .projects {
+    flex-direction: row;
+  }
+}
 .work a:link {
   font-weight: bold;
   color: #95c1e5;
