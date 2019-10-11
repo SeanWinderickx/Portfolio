@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   background-image: url("images/background.jpg");
   min-height: 828px;
