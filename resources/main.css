@@ -8,7 +8,7 @@ html {
 }
 
 .wrapper {
-  background-image: url("images/background.jpg");
+  background-image: url("images/background_blue.jpg");
   min-height: 828px;
   background-attachment: fixed;
   background-position: center;
@@ -111,12 +111,13 @@ html {
   }
 }
 .title {
-  max-width: 90%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  background-image: url(../images/background_blue.jpg);
 }
 
 .title div {
@@ -169,6 +170,12 @@ html {
   height: 400px;
   width: 90%;
   margin: 0 auto;
+}
+
+.parallax {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/background_purple.jpg");
 }
 
 .work {
