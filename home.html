@@ -15,23 +15,15 @@
         <div class="header">
             <div class="topnav" id="myTopnav">
                 <a href="#home">Home</a>
-                <a href="#news">About</a>
-                <a href="#contact">CV</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="cv.html">CV</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
+                  <img alt="hamburger menu" src="resources/images/hamburger.jpg">
                 </a>
               </div>
               
-              <script>
-              function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                  x.className += " responsive";
-                } else {
-                  x.className = "topnav";
-                }
-              }
-              </script>
+              
 
         </div>
         <!-- header -->
@@ -46,7 +38,7 @@
         <!-- bio -->
         <div class="bio">
             <div class="text">
-                <div id="hello">Hi, I’m Sean. It’s a pleasure to meet you!</div>
+                <div class="hello">Hi, I’m Sean. It’s a pleasure to meet you!</div>
                 <div>Since beginning my journey as a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </div>
@@ -73,5 +65,15 @@
         </div>
         <!-- footer -->
     </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html> 
