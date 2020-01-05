@@ -88,8 +88,13 @@
     margin-bottom: 5vh;
 }
 
+.project-container img {
+    width: 80vw;
+    height: auto;
+    margin: auto 5vw;
+}
+
 .project-container h2 {
-    margin: 0 auto;
     text-align: center;
     font-size: 2em;
     margin-bottom: 5vh;
@@ -112,7 +117,7 @@
 
 /* CV SPECIFIC*/
 .skills-container {
-    width: 100%;
+    width: 100vw;
     background: #271F50;
 }
 
@@ -152,6 +157,10 @@
     .project-container {
         width: 45%;
         margin: 0 auto;
+    }
+
+    .project-container img {
+        width: 40vw;
     }
 }
 
