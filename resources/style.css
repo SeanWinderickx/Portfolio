@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+#header {
+    height: 5vh;
+    width: 100vw;
+    background: rgb(165, 156, 157);
+}
+
+/* Lander */
+#lander {
+    height: 95vh;
+    width: 100vw;
+    background-image: url(./lander.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#lander h2 {
+    width: 45vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(180, 89, 112, 0.548);
+    border-radius: 10px;
+}
+
+#lander p {
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 1.8em;
+    color: black;
+}
+
+/* About */
+#about {
+    background: #271F50;
+    height: auto;
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5vh;
+    color: #B4596F;
+}
+
+#about p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto 5vw;
+    color: #E1CCA9;
+}
+
+/* Project */
+#projects {
+    background: #271F50;
+    height: auto;
+    width: 100vw;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.square {
+    width: 100%;
+    height: 30vh;
+    border: 1px solid black;
+    margin-bottom: 5vh;
+}
+
+.project-container h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5vh;
+    color: #B4596F;
+}
+
+.project-container p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #E1CCA9;
+    padding-bottom: 5vh;
+}
+
+/* Footer */
+#footer {
+    background: #271F50;
+    height: 5vh;
+    width: 100vw;
+}
+
+/* CV SPECIFIC*/
+.skills-container {
+    width: 100%;
+    background: #271F50;
+}
+
+.skills-container h2 {
+    margin: 0 auto;
+    color: #B4596F;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2vh;
+}
+
+.skills-container li {
+    text-align: center;
+    font-size: 1.5em;
+    color: #E1CCA9;
+    padding-bottom: 1vh;
+    list-style: none;
+}
+
+/* MEDIA QUERIES */
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #lander h2 {
+        font-size: 3em;
+    }
+
+    #lander p {
+        font-size: 2.5em;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-container {
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #lander h2 {
+        font-size: 3em;
+    }
+
+    #lander p {
+        font-size: 2.5em;
+    }
+
+    #about h2 {
+        font-size: ;
+
+    }
+
+    #about p {
+        font-size: ;
+
+    }
+
+    .project-container h2 {
+        font-size: ;
+
+    }
+
+    .project-container p {
+        font-size: ;
+    }
+}
+
+/* 720p */
+@media (min-width: 1280px) {
+    #lander h2 {
+        font-size: ;
+    }
+
+    #lander p {
+        font-size: ;
+    }
+
+    #about h2 {
+        font-size: ;
+
+    }
+
+    #about p {
+        font-size: ;
+
+    }
+
+    .project-container h2 {
+        font-size: ;
+
+    }
+
+    .project-container p {
+        font-size: ;
+    }
+}
+
+/* 1080p */
+@media (min-width: 1920) {
+    #lander h2 {
+        font-size: ;
+    }
+
+    #lander p {
+        font-size: ;
+    }
+
+    #about h2 {
+        font-size: ;
+
+    }
+
+    #about p {
+        font-size: ;
+
+    }
+
+    .project-container h2 {
+        font-size: ;
+
+    }
+
+    .project-container p {
+        font-size: ;
+    }
+}
+
+/* 1440p */
+@media (min-width: 2560) {
+    #lander h2 {
+        font-size: ;
+    }
+
+    #lander p {
+        font-size: ;
+    }
+
+    #about h2 {
+        font-size: ;
+
+    }
+
+    #about p {
+        font-size: ;
+
+    }
+
+    .project-container h2 {
+        font-size: ;
+
+    }
+
+    .project-container p {
+        font-size: ;
+    }
+}
