@@ -200,7 +200,7 @@ body {
         font-size: 2.5em;
     }
 
-    #about h2 {
+    /* #about h2 {
         font-size: ;
 
     }
@@ -217,12 +217,12 @@ body {
 
     .project-container p {
         font-size: ;
-    }
+    } */
 }
 
 /* 720p */
 @media (min-width: 1280px) {
-    #lander h2 {
+    /* #lander h2 {
         font-size: ;
     }
 
@@ -247,12 +247,12 @@ body {
 
     .project-container p {
         font-size: ;
-    }
+    } */
 }
 
 /* 1080p */
 @media (min-width: 1920) {
-    #lander h2 {
+    /* #lander h2 {
         font-size: ;
     }
 
@@ -277,12 +277,12 @@ body {
 
     .project-container p {
         font-size: ;
-    }
+    } */
 }
 
 /* 1440p */
 @media (min-width: 2560) {
-    #lander h2 {
+    /* #lander h2 {
         font-size: ;
     }
 
@@ -307,5 +307,5 @@ body {
 
     .project-container p {
         font-size: ;
-    }
+    } */
 }
